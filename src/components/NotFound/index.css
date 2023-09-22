@@ -1,0 +1,83 @@
+.not-found-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.not-found-responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 2;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  padding: 25px;
+}
+
+.not-found-img {
+  width: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    width: 450px;
+  }
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 40px;
+  }
+}
+
+.not-found-heading-text-light {
+  color: #f8fafc;
+}
+
+.not-found-heading-text-dark {
+  color: #334155;
+}
+
+.not-found-content {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-content {
+    font-size: 17px;
+  }
+}
+
+.not-found-content-text-light {
+  color: #f8fafc;
+}
+
+.not-found-content-text-dark {
+  color: #64748b;
+}
+
+
+.not-found-bg-dark {
+  background-color: #000000;
+}
+
+.not-found-bg-light {
+  background-color: #ffffff;
+}
+
+
